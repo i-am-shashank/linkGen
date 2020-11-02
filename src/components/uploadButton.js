@@ -10,13 +10,13 @@ function UploadButton({ setURL, setSelected }) {
     const payload = new FormData();
     payload.append("image", imageSelected);
     await axios
-      .post("https://linkgen-bak.this-is-shashank-mishra.vercel.app/", payload)
+      .post("localhost:4444/", payload); //backend yet to be added!
       .then((res) => setURL(res.data.file.url));
   }
 
   return (
     <>
-      <label class="custom-file-upload" className="imageInput">
+      <label className="custom-file-upload" className="imageInput">
         <input
           type="File"
           name="image"

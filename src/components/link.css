@@ -1,0 +1,23 @@
+div {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  width: 93%;
+}
+.copy-btn {
+  margin: 10px 0 10px 0;
+  cursor: pointer;
+  background-color: #101c2996;
+  padding: 4px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #fff;
+  box-shadow: 2px 2px 10px #036c51;
+  text-align: center;
+}
+.urlLink{
+  color: #00cfff;
+  font-size: large;
+}

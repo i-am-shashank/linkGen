@@ -10,7 +10,7 @@ function UploadButton({ setURL, setSelected }) {
     const payload = new FormData();
     payload.append("image", imageSelected);
     await axios
-      .post("localhost:4444/", payload); //backend yet to be added!
+      .post("https://server.this-is-shashank-mishra.vercel.app", payload) //backend yet to be added!
       .then((res) => setURL(res.data.file.url));
   }
 

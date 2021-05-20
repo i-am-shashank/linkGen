@@ -2,25 +2,27 @@ input {
   width: max-content;
 }
 .imageInput {
-    border: none;
-    background-color: #00bf65e0;
-    display: inline-block;
-    padding: 6px 12px;
-    border-radius: 4px;
-    cursor: pointer;
-    text-align: center;
-    box-shadow: 2px 2px 10px #035540;
+  border: none;
+  background-color: #a2d5f2;
+  color: #095F90;
+  font-weight: 600;
+  font-size: 1.5rem;;
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: 2px 2px 12px #0000002f;
 }
 input[type="file"] {
-    display: none;
+  display: none;
 }
 .upload {
   cursor: pointer;
-  background-color: #00bf65e0;
+  background-color: #095F90;
   padding: 2px;
   border: none;
   border-radius: 4px;
-  color: black;
-  font-size: 1rem;
-  box-shadow: 2px 2px 10px #035540;
+  color: #a2d5f2;
+  font-size: 1.5rem;
 }

@@ -14,9 +14,14 @@ function Link({ URL, isSelected }) {
   }
   return (
     <div>
-      <h1>your link is here</h1>
-      {URL ? <a className="urlLink" href={URL}>{URL}</a> : "wait while link generates"}
-      {(!URL && isSelected) && <Loader /> }
+      {URL ? (
+        <a className="urlLink" href={URL}>
+          {URL}
+        </a>
+      ) : (
+        "your link will get displayed here"
+      )}
+      {!URL && isSelected && <Loader />}
       {URL && (
         <button className="copy-btn" onClick={() => copyToClipboard()}>
           copy link

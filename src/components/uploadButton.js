@@ -16,12 +16,13 @@ function UploadButton({ setURL, setSelected }) {
 
   return (
     <>
-      <label className="custom-file-upload" className="imageInput">
+      <label className="custom-file-upload imageInput">
         <input
           type="File"
           name="image"
           onChange={(e) => setImage(e.target.files[0])}
-        />click to select image
+        />
+        click to select image
       </label>
       {imageSelected !== null ? (
         <button className="upload" onClick={() => uploadImage()}>

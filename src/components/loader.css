@@ -2,8 +2,8 @@
 .loading {
   position: absolute;
   z-index: 1;
-  height: 200px;
-  width: 200px;
+  height: 1rem;
+  width: 1rem;
   overflow: visible;
   margin: auto;
   top: 0;
